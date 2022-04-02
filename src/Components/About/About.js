@@ -3,7 +3,7 @@
      const About = () => {
          return (
              <div>
-                 <h2>This is About Page</h2>
+                 <h2 className='p-2 text-xl font-bold'>This is About Page</h2>
              </div>
          );
      };
