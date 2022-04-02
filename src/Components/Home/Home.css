@@ -1,0 +1,15 @@
+    .img-content {
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    img {
+       width: 400px;
+       height: 220px;
+    }
+
+    .btn-content{
+       padding: 10px;
+       color: salmon;
+    }
