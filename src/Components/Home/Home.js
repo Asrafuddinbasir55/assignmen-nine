@@ -1,8 +1,13 @@
     import React from 'react';
 import useReviews from '../../Hooks/useReviews';
+import SingleReview from '../Reviews/SingleReview';
+    //  import SingleReview from '../../SingleReview/SingleReview';
      import  './Home.css';
+
     const Home = () => {
       const [review ] = useReviews()
+      const newReview = review.slice(0, 3) 
+     
        
         return (
      <>
@@ -23,12 +28,19 @@ import useReviews from '../../Hooks/useReviews';
           </div>
              
 
-           </div>
-{/*          
-           {
-             selectedReview.slice(0, 3)
-           } */}
-         
+           </div>          
+          
+         <div>
+          
+             <div className='grid grid-cols-3 mt-10'>
+            {
+              newReview?.map(rev => <SingleReview rev = {rev}
+              key={rev.id}></SingleReview>)   
+              }
+          </div>
+          
+
+         </div> 
            
            </>
         );

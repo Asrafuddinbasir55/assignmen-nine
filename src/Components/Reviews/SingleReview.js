@@ -1,4 +1,5 @@
      import React from 'react';
+     
      import './SingleReview.css';
      const SingleReview = ({rev}) => {
         console.log(rev) 
