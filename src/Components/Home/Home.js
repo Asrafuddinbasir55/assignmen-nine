@@ -31,7 +31,7 @@ import SingleReview from '../Reviews/SingleReview';
            </div>          
           
          <div>
-          
+                <h2 className='p-2 text-xl font-bold mt-8'>Customer Reviews (3)</h2>
              <div className='grid grid-cols-3 mt-10'>
             {
               newReview?.map(rev => <SingleReview rev = {rev}

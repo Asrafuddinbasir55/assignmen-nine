@@ -2,10 +2,9 @@
 
      import './SingleReview.css';
      const SingleReview = ({rev}) => {
-        console.log(rev) 
 
-         const {name, ratings, reviews, id } = rev;
-          console.log(name);
+         const {name, ratings, reviews} = rev;
+          
          return (
              <div className='bg-white p-4 rounded-lg'>
                  <h2 className='bg-rose-200 py-2 rounded text-2xl font-bold'>Name: {name}</h2>

@@ -41,8 +41,8 @@ import { Legend, Line, LineChart, Pie, PieChart, Tooltip, XAxis, YAxis } from 'r
             }
         ]
          return (
-             <div>
-               <LineChart width={200} height={400} data={data}>
+             <div className='grid grid-cols-2'>
+               <LineChart width={300} height={400} data={data}>
                <XAxis dataKey="month" />
                     <YAxis />
                     <Tooltip />
