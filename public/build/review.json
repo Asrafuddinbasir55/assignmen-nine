@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+   
+    "name": "Fahim",
+    
+    "ratings": 4.5,
+    "reviews": "Bring your creative ideas to life with   machine learning library for react. Learn how to use is good work next reading our useful out Web with the skills"
+    
+  },
+  {
+    "id": 2,
+   
+    "name": "Rasel",
+    
+    "ratings": 4.99,
+    "reviews": "Build on your web developer knowledge with Web.Dev by reading our useful guides on how to. to improve your website"
+    
+  },
+  {
+    "id": 3,
+   
+    "name": "Habib",
+    
+    "ratings": 4.75,
+    "reviews": "A web developer is a programmer or a coder who specializes in, or is specifically engaged in, the development of World Wide Web applications using "
+    
+  },
+  {
+    "id": 4,
+   
+    "name": "Kamal",
+    
+    "ratings": 4.45,
+    "reviews": "Check out Web developers with the skills you need for your next job. Web designer and developer with a diverse portfolio of projects"
+    
+  },
+  {
+    "id": 5,
+   
+    "name": "Jamal",
+    
+    "ratings": 4.5,
+    "reviews": "Web developers work independently as freelancers or with company teams to create websites. Depending on the job, these professionals"
+    
+  },
+  {
+    "id": 6,
+   
+    "name": "Sakib",
+    
+    "ratings": 4.88,
+    "reviews": "To become a Web Developer, you should have an understanding of HTML, CSS, and JavaScript. It's also recommended to learn about and framework"
+    
+  }
+]
